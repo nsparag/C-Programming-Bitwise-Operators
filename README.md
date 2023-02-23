@@ -48,7 +48,21 @@
     }
     
     
-## WAP to count the bits set (bit value 1 ) in an integer? Find out and compare different possibilities?
+## Write a program to count the number of 1's in an integer?
+
+    #include <stdio.h>
+
+    int main() {
+        int num=7,flag=0;
+        while(num!=0)
+        {
+            if(num&1)
+                flag++;
+            num=num>>1;
+        }
+        printf("%d",flag);
+        return 0;
+    }
 
 4. WAP implement subtraction functionality with out using SUB('-') Operator.    
 5. WAP implement addition functionality with out using ADD('+') Operator.   
