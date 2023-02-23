@@ -64,13 +64,24 @@
         return 0;
     }
 
+## Check whether number is even or odd.
+    #include <stdio.h>
+
+    int main() {
+        int num=8;
+        if(num&1)
+            printf("ODD number");
+        else
+            printf("EVEN number");
+
+        return 0;
+    }
+
 4. WAP implement subtraction functionality with out using SUB('-') Operator.    
 5. WAP implement addition functionality with out using ADD('+') Operator.   
 6. WAP implement XOR functionality with out using XOR(^) operator.
 7. WAP to implement the sizeof operation using the bitwise operator.  
 8. WAP to convert Little endian integer to Big endian integer 
-9. WAP multiply a number by 9 using bit shift.
-10. WAP whether a number is ODD or EVEN using bitwise.
 11. WAP whether a number is a power of 2 or not?
 12. WAP print reverse of integer number? 
 13. WAP Check if the 20th bit of a 32-bit integer is on or off?
