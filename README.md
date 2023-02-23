@@ -3,12 +3,20 @@
 ### Write a Macro's Set, clear and toggle n'th bit using bit wise operator?
 
     #include <stdio.h>
-    
+
+    #define SET(x,p) x|=(1<<p)
+    #define CLEAR(x,p) x&=~(1<<p)
+    #define TOGGLE(x,p) x^=(1<<p)
     int main() {
         int x=5, p=1;
-        printf("%d",(x|(1<<p))); //to set p bit
-        printf("%d",(x&~(1<<p))); //to clear p bit
-        printf("%d",(x^(1<<p))); //to toggle p bit
+        SET(x,p);
+        printf("%d",x); //to set p bit
+
+        CLEAR(x,p);
+        printf("%d",x); //to clear p bit
+
+        TOGGLE(x,p);
+        printf("%d",x); //to toggle p bit
         return 0;
     }
     
@@ -26,4 +34,15 @@
         }
         for(i=count-1;i>=0;i--)
             printf("%d",y[i]);
+    }
+
+## Multiply a mumber by 9
+    #include <stdio.h>
+
+    int main() {
+        int x=3,y;
+        y=x<<4-x<<2;
+        printf("%d",y);
+
+        return 0;
     }
