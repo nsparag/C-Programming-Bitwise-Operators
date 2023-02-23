@@ -77,6 +77,20 @@
         return 0;
     }
 
+## Check is pth bit is SET or CLEAR.
+    #include <stdio.h>
+
+    int main() {
+        int num=16777215,p=20,x;
+        x=num&1<<p;
+        if(x==1<<p)
+            printf("p bit is SET");
+        else
+            printf("p bit is CLEAR");
+
+        return 0;
+    }
+
 4. WAP implement subtraction functionality with out using SUB('-') Operator.    
 5. WAP implement addition functionality with out using ADD('+') Operator.   
 6. WAP implement XOR functionality with out using XOR(^) operator.
