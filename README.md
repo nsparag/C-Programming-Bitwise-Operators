@@ -94,11 +94,10 @@
 4. WAP implement subtraction functionality with out using SUB('-') Operator.    
 5. WAP implement addition functionality with out using ADD('+') Operator.   
 6. WAP implement XOR functionality with out using XOR(^) operator.
-7. WAP to implement the sizeof operation using the bitwise operator.  
+7. WAP to implement the sizeof operation using the bitwise operator. 
 8. WAP to convert Little endian integer to Big endian integer 
 11. WAP whether a number is a power of 2 or not?
 12. WAP print reverse of integer number? 
-13. WAP Check if the 20th bit of a 32-bit integer is on or off?
 14. Write a functionsetbits(x,p,n,y)that return x with then bits that begin at position p set to the rightmost n bits of y, leaving the other bits unchanged.
 e.g. if x = 10101010 (170 decimal) and y = 10100111 (167 decimal) and n = 3 and p = 6 then
 you need to strip off 3 bits of y (111) and put them in x at position 10xxx010 to get answer
