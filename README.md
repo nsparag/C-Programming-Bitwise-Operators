@@ -1,6 +1,6 @@
 # C Programming Bitwise Operators
 
-### Write a Macro's Set, clear and toggle n'th bit using bit wise operator?
+### Write a Macro's Set, clear and toggle p'th bit using bit wise operator?
 
     #include <stdio.h>
 
